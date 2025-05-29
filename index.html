@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İnşaat Şirketi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--css-->
+  <link rel="stylesheet" href="css/index.css">
+  
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-content">
+      <i class="bi bi-building"></i>
+      <p>EKOM inşaat Yükleniyor...</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">EKOM İNŞAAT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Hizmetler</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Güvenilir İnşaat Çözümleri</h1>
+      <p class="animate-on-scroll">Kalite, dayanıklılık ve estetiği bir arada sunuyoruz.</p>
+      <a href="#contact" class="btn btn-warning btn-lg mt-3 animate-on-scroll">Teklif Al</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="text-center mb-5 animate-on-scroll">Hizmetlerimiz</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card animate-on-scroll">
+            <div class="card-body">
+              <i class="bi bi-building"></i>
+              <h5 class="card-title mt-3">Bina İnşaatı</h5>
+              <p class="card-text">Apartman ve siteler  için anahtar teslim çözümler.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card animate-on-scroll">
+            <div class="card-body">
+              <i class="bi bi-layout-text-sidebar"></i>
+              <h5 class="card-title mt-3">Mühendislik Proje</h5>
+              <p class="card-text">Statik, mekanik ve elektrik projelendirme hizmetleri.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card animate-on-scroll">
+            <div class="card-body">
+              <i class="bi bi-wrench"></i>
+              <h5 class="card-title mt-3">Tadilat & Renovasyon</h5>
+              <p class="card-text">Modern ve estetik tadilat çözümleri ile yaşam alanlarınızı yeniliyoruz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content animate-on-scroll">
+        <h2 class="mb-4">Hakkımızda</h2>
+        <p>20 yılı aşkın tecrübemizle sektörde güvenilir ve yenilikçi projelere imza atıyoruz. Profesyonel kadromuzla her aşamada yanınızdayız.</p>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery-section mt-5">
+        <h2 class="text-center mb-5 animate-on-scroll">Proje Galerisi</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="gallery-item animate-on-scroll">
+              <img src="https://source.unsplash.com/800x600/?construction,building" alt="İnşaat Projesi" class="img-fluid">
+              <div class="gallery-overlay">
+                <h5>Proje 1</h5>
+                <p>Modern Yapı</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item animate-on-scroll">
+              <img src="https://source.unsplash.com/800x600/?construction,site" alt="İnşaat Projesi" class="img-fluid">
+              <div class="gallery-overlay">
+                <h5>Proje 2</h5>
+                <p>Residans</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item animate-on-scroll">
+              <img src="https://source.unsplash.com/800x600/?building,architecture" alt="İnşaat Projesi" class="img-fluid">
+              <div class="gallery-overlay">
+                <h5>Proje 3</h5>
+                <p>Ticari Yapı</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="text-center mb-5 animate-on-scroll">İletişim</h2>
+      
+      <!-- Location -->
+      <div class="location-content animate-on-scroll mb-5">
+        
+        <!-- Contact Form -->
+        <form class="contact-form animate-on-scroll">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Ad Soyad" required>
+            </div>
+            <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Telefon numaranız" required>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="4" placeholder="Mesajınız" required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary">Gönder</button>
+            </div>
+          </div>
+        </form>
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12505.355563628865!2d30.016471!3d40.7328764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb5b67bad61fc7%3A0xee5549a5ca265b3a!2sEkom%20Yap%C4%B1%20Malzemeleri%20%C4%B0n%C5%9Faat!5e0!3m2!1str!2str!4v1685282100000!5m2!1str!2str" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+        <div class="location-info text-center mt-4">
+          <h4>Adresimiz</h4>
+          <p class="mb-3">Fatih Sultan Mehmet, Nazım Demirci Cd., 41250 Kartepe/Kocaeli</p>
+          <button class="btn btn-primary copy-location" data-location="https://maps.app.goo.gl/ShEXQ4JCDoZXsEGWA">
+            <i class="bi bi-clipboard"></i> Konumu Kopyala
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 İnşaat Şirketi. Tüm hakları saklıdır.</p>
+      <p><a href="#services">Hizmetler</a> | <a href="#about">Hakkımızda</a> | <a href="#contact">İletişim</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
